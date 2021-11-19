@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(124, 178, 199);
+    color:rgb(20, 9, 58);
+
+}
+header{
+    margin-top: 4ch;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600px;
+}
+.container
+{
+    margin: 12px  auto;
+    align-items: center;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 35px;
+}
+.container .inputfield
+{
+ display: flex;
+ height: 45px;   
+ width: 100%;
+ margin: 20px 0;
+ justify-content: space-between;
+ border: none;
+
+
+
+}
+.inputfield input{
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    background: white;
+}
+.inputfield button{
+    width: 20%;
+    border-radius: 5px;
+    height: 100%;
+    color:rgb(230, 210, 210);
+    background:rgb(21, 10, 70);
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+.todolist ul{
+    list-style: none;
+}
+
+.todolist  li{
+    flex: 1;
+    list-style: none;
+    height: 45px;
+    padding:  3px;
+    background: rgb(238, 235, 231);
+    color: rgb(10, 10, 10);
+    position:relative;
+    line-height: 45px;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+    
+
+.items{
+    padding: 0rem 0.5rem;
+    display: flex;
+    transition: all 0.5s ease;
+}
+.trash-btn
+{
+    height: 45px;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    color: rgb(236, 47, 14);
+
+}
+.trash-btn:active{
+    opacity: 0.3;
+}
+.fa-trash{
+    pointer-events: none;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.clear{
+    border-radius: 5px;
+    width:auto;
+    height: 100%;
+    cursor: pointer;
+   
+}
